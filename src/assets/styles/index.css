@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+    background-color: rgb(17, 2, 35);
+    color: white;
+    display:  flex;
+    flex-direction: column;
+    gap: 3rem;
+align-items: center;
+    padding: 3rem 0rem;
+}
