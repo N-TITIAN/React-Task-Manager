@@ -17,7 +17,6 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = (username, password) => {
-    // In a real application, you would validate credentials against a backend
     const user = users.find(
       (u) => u.username === username && u.password === password
     );
